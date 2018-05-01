@@ -32,6 +32,10 @@
         <activity
             android:name=".RequestTableCustomersActivity"
             android:label="@string/title_activity_request_table_customers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WaiterTableAlerts"
+            android:label="@string/title_activity_waiter_table_alerts"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

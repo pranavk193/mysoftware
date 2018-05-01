@@ -58,13 +58,15 @@ public class RequestTableActivity extends AppCompatActivity {
 
 
 
-                                    //JSONObject resp = new JSONObject(response);
+                                    JSONObject resp = new JSONObject(response);
 
-                                  //  pid = resp.getInt("custID");
+                                    pid = resp.getInt("custID");
                                    // Toast toast;
 
-                                    Toast toast = Toast.makeText(getApplicationContext(), "Hello:" +response, Toast.LENGTH_SHORT);
-                                    toast.show();
+                                    //JSONArray jsonArray = new JSONArray(response);
+
+                                    //Toast toast = Toast.makeText(getApplicationContext(), "Hello:"+ pid, Toast.LENGTH_SHORT);
+                                    //toast.show();
                                 }
                                 catch(Exception e){
                                     e.printStackTrace();
