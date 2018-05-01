@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.softwareeng18.food4thought">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CustomerActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".ManagerActivity" />
+        <activity android:name=".PayBillActivity" />
+        <activity android:name=".CustomerWaitTimeActivity" />
+        <activity android:name=".testActivity" />
+        <activity android:name=".BusBoyActivity" />
+        <activity android:name=".ChefActivity" />
+        <activity android:name=".WaiterActivity" />
+        <activity android:name=".RequestTableActivity" />
+        <activity
+            android:name=".RequestTableCustomersActivity"
+            android:label="@string/title_activity_request_table_customers"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

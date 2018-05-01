@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food4Thought</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_request_table_customers">RequestTableCustomersActivity</string>
+</resources>
